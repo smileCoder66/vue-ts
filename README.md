@@ -95,6 +95,10 @@ let tom: Person = {
 };
 
 tom.id = 89757;❌ // 不能被二次赋值
+
+//非空断言 !
+let s = e.name;//抛出e可能不存在的错误
+let s = e!.name;//e肯定存在
 ```
 
 ## vue-ts
